@@ -1,4 +1,7 @@
-body { padding: 0; position: relative;}
+body { padding: 0; position: relative; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; } 
+a { border-bottom: 1px dotted #333333; color: #333; text-decoration: none; }
+a:visited { color: #777; }
+a:hover, a:focus { border-bottom: 1px solid #333333; }
 label { display: block; }
 form { columns:20em; -moz-columns:20em; -webkit-columns:20em; margin:0; padding: 0;}
 #form .mix { opacity: 0; display: none;}
@@ -12,3 +15,5 @@ figure { padding: 0; margin: 0; width: 15em;}
 .price { display: block; }
 #wrapper { width:100%; overflow-x:scroll; }
 .active { font-weight: bold;}
+#filters { display: inline-block; width: 180px; margin: 0 0 30px; vertical-align: top; }
+#filters li { padding-left: 0px; margin-left: 0px; cursor: pointer; list-style-type: square; display: }
