@@ -1,0 +1,47 @@
+<!doctype HTML>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Choisir sa liseuse ebook - août 2013</title>
+  <script src="lib/readers.js"></script>
+  <link rel="stylesheet" href="lib/style.css">
+</head>
+<body>
+
+<div id="results">
+  <h2>Les résultats, dans l'ordre des préférences données plus bas…</h2>
+  <p>Celui qui correspond le plus à votre recherche est en premier. Il se peut qu'il ne corresponde pas parfaitement si aucune correspondance parfaite n'est possible, mais c'est celui qui répond au mieux à l'importance que vous attribuez à chaque critère.</p>
+  <div id="wrapper">
+    <div id="result"></div>
+  </div>
+</div>
+
+<div id="criteres">
+  <h2>Réglez l'importance que vous attribuez à chaque critère…</h2>
+  <p>De <i>aucune importance</i> (à gauche) à <i>importance maximale</i> (à droite).</p>
+  <form id="form">
+  </form>
+</div>
+<a href="#results">(voir les résultats)</a>
+<footer><p>Corrections et propositions d'améliorations sur github.</p></footer>
+
+
+<script>
+var results = document.getElementById("result");
+var form = document.getElementById("form");
+READERS.init(form, results);
+READERS.load("pocketbook_lux");
+READERS.load("pocketbook_touch");
+READERS.load("odyssey_frontlight");
+READERS.load("odyssey_2013");
+READERS.load("kobo_aura_hd");
+READERS.load("kobo_aura");
+READERS.load("kobo_glo");
+READERS.load("kobo_touch");
+READERS.load("kobo_mini");
+READERS.load("kindle_3g");
+READERS.load("kindle_basic");
+READERS.load("sony_prst2");
+</script>
+</body>
+</html>
