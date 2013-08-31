@@ -1,38 +1,146 @@
 {
-  "white": "Couleur blanche, ivoire\u2026",
-  "black": "Couleur noire, sombre",
-  "color": "Autre couleur (rouge, bleue, etc.)",
-  "interop": "Formats et syst\u00e8mes interop\u00e9rables",
-  "sync": "Synchronisation des contenus avec le libraire",
-  "dropbox": "Synchronisation des contenus avec Dropbox",
-  "rss": "Lecteur RSS embarqu\u00e9",
-  "pocket": "Int\u00e9gration avec Pocket",
-  "games": "Divers jeux",
-  "user_profiles": "Profils utilisateurs multiples",
-  "cover": "Couverture du livre comme \u00e9cran de veille",
-  "foreign": "Offre de livres \u00e9trangers dans le store embarqu\u00e9",
-  "local_seller": "Libraire local \/ fran\u00e7ais",
-  "local_constructor": "Constructeur local \/ europ\u00e9en",
-  "annotate": "Annotation des livres efficace",
-  "native_app": "Synchronisation avec des app Android \/ iPad",
-  "buttons": "Boutons physiques pour changer les pages",
-  "tts": "Lecture audio des livres (text to speech)",
-  "mp3": "Lecture de fichiers audios \/ musique (mp3)",
-  "frontlight": "Sur-\u00e9clairage de l'\u00e9cran (d\u00e9brayable)",
-  "highres": "\u00c9cran haute r\u00e9solution",
-  "cheap": "Bon march\u00e9 \/ pas cher",
-  "storage": "Grande capacit\u00e9 de stockage",
-  "pdf_reflow": "Reflow PDF (lecture ais\u00e9e des PDF pur texte)",
-  "phone_support": "Assitance t\u00e9l\u00e9phonique",
-  "apps": "Applications internes (type calendrier)",
-  "third_party": "Ouverture aux applications tierces",
-  "3g": "Synchronisation par 3G",
-  "lightweight": "L\u00e9g\u00e8re \/ Faible poids",
-  "tiny": "Faible encombrement et \u00e9paisseur",
-  "large_screen": "\u00c9cran de grande taille",
-  "multi_touch": "\u00c9cran tactile multi-touch (plusieurs doigts)",
-  "send_by_mail": "Envoi des livres \u00e0 la liseuse par email",
-  "evernote": "Int\u00e9gration de Evernote",
-  "touch": "Interface tactile",
-  "no_border": "Facade plane, verre sur toute la surface"
+  "white": { 
+    "label" : "Couleur blanche, ivoire\u2026", 
+    "tags" : [ "hardware" ]
+  },
+  "black": { 
+    "label" : "Couleur noire, sombre",
+    "tags" : [ "hardware" ]
+  },
+  "color": { 
+    "label" : "Autre couleur (rouge, bleue, etc.)",
+    "tags" : [ "hardware" ]  
+  },
+  "interop": { 
+    "label" : "Formats et syst\u00e8mes interop\u00e9rables",
+    "tags" : [ "format", "open" ]
+  },
+  "sync": { 
+    "label" : "Synchronisation des contenus avec le libraire",
+    "tags" : [ "sync" ]
+  },
+  "dropbox": { 
+    "label" : "Synchronisation des contenus avec Dropbox",
+    "tags" : [ "sync", "apps" ]
+  },
+  "rss": { 
+    "label" : "Lecteur RSS embarqu\u00e9",
+    "tags" : [ "apps" ]
+  },
+  "pocket": { 
+    "label" : "Int\u00e9gration avec Pocket",
+    "tags" : [ "apps", "sync" ]
+  },
+  "games": { 
+    "label" : "Divers jeux",
+    "tags" : [ "apps" ]
+  },
+  "user_profiles": { 
+    "label" : "Profils utilisateurs multiples",
+    "tags" : [ "software" ]
+  },
+  "cover": { 
+    "label" : "Couverture du livre comme \u00e9cran de veille",
+    "tags" : [ "software" ]
+  },
+  "foreign": { 
+    "label" : "Offre de livres \u00e9trangers dans le store embarqu\u00e9",
+    "tags" : [ "store" ]
+  },
+  "local_seller": { 
+    "label" : "Libraire local \/ fran\u00e7ais",
+    "tags" : [ "store" ]
+  },
+  "local_constructor": { 
+    "label" : "Constructeur local \/ europ\u00e9en",
+    "tags" : [ "hardware" ]
+  },
+  "annotate": { 
+    "label" : "Annotation des livres efficace",
+    "tags" : [ "software" ]
+  },
+  "native_app": { 
+    "label" : "Synchronisation avec des app Android \/ iPad",
+    "tags" : [ "sync" ]
+  },
+  "buttons": { 
+    "label" : "Boutons physiques pour changer les pages",
+    "tags" : [ "hardware" ]
+  },
+  "tts": { 
+    "label" : "Lecture audio des livres (text to speech)",
+    "tags" : [ "format" ]
+  },
+  "mp3": { 
+    "label" : "Lecture de fichiers audios \/ musique (mp3)",
+    "tags" : [ "format" ]
+  },
+  "frontlight": { 
+    "label" : "Sur-\u00e9clairage de l'\u00e9cran (d\u00e9brayable)",
+    "tags" : [ "hardware", "screen" ]
+  },
+  "highres": { 
+    "label" : "\u00c9cran haute r\u00e9solution",
+    "tags" : [ "screen" ]
+  },
+  "cheap": { 
+    "label" : "Bon march\u00e9 \/ pas cher",
+    "tags" : [ "hardware" ]
+  },
+  "storage": { 
+    "label" : "Grande capacit\u00e9 de stockage",
+    "tags" : [ "hardware" ]
+  },
+  "pdf_reflow": { 
+    "label" : "Reflow PDF (lecture ais\u00e9e des PDF pur texte)",
+    "tags" : [ "format" ]
+  },
+  "phone_support": { 
+    "label" : "Assitance t\u00e9l\u00e9phonique",
+    "tags" : [ ]
+  },
+  "apps": { 
+    "label" : "Applications internes (type calendrier)",
+    "tags" : [ "apps" ]
+  },
+  "third_party": { 
+    "label" : "Ouverture aux applications tierces",
+    "tags" : [ "apps" ]
+  },
+  "3g": { 
+    "label" : "Synchronisation par 3G",
+    "tags" : [ "sync" ]
+  },
+  "lightweight": { 
+    "label" : "L\u00e9g\u00e8re \/ Faible poids",
+    "tags" : [ "hardware" ]
+  },
+  "tiny": { 
+    "label" : "Faible encombrement et \u00e9paisseur",
+    "tags" : [ "hardware" ]
+  },
+  "large_screen": { 
+    "label" : "\u00c9cran de grande taille",
+    "tags" : [ "hardware", "screen" ]
+  },
+  "multi_touch": { 
+    "label" : "\u00c9cran tactile multi-touch (plusieurs doigts)",
+    "tags" : [ "hardware", "screen" ]
+  },
+  "send_by_mail": { 
+    "label" : "Envoi des livres \u00e0 la liseuse par email",
+    "tags" : [ "sync" ]
+  },
+  "evernote": { 
+    "label" : "Int\u00e9gration de Evernote",
+    "tags" : [ "sync", "apps" ]
+  },
+  "touch": { 
+    "label" : "Interface tactile",
+    "tags" : [ "screen", "software" ]
+  },
+  "no_border": { 
+    "label" : "Facade plane, verre sur toute la surface",
+    "tags" : [ "hardware", "screen" ]
+  }
 }

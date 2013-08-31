@@ -19,6 +19,7 @@
 <div id="criteres">
   <h2>Réglez l'importance que vous attribuez à chaque critère…</h2>
   <p>De <i>aucune importance</i> (à gauche) à <i>importance maximale</i> (à droite).</p>
+  <ul id="filters"></ul>
   <form id="form">
   </form>
 </div>
@@ -29,7 +30,8 @@
 <script>
 var results = document.getElementById("result");
 var form = document.getElementById("form");
-READERS.init(form, results);
+var filters = document.getElementById("filters");
+READERS.init(form, filters, results);
 READERS.load("pocketbook_lux");
 READERS.load("pocketbook_touch");
 READERS.load("odyssey_frontlight");
@@ -43,5 +45,15 @@ READERS.load("kindle_3g");
 READERS.load("kindle_basic");
 READERS.load("sony_prst2");
 </script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+
+<script>
+$(function(){  
+  $('#form').mixitup();
+});
+</script>
+
 </body>
 </html>

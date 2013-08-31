@@ -1,6 +1,7 @@
 body { padding: 0; position: relative;}
 label { display: block; }
 form { columns:20em; -moz-columns:20em; -webkit-columns:20em; margin:0; padding: 0;}
+#form .mix { opacity: 0; display: none;}
 p { margin: 0 0 1em 0;}
 #result { display: table-row; }
 #result a { display: table-cell; }
@@ -10,3 +11,4 @@ figure { padding: 0; margin: 0; width: 15em;}
 .score { display: block; font-style: italic; font-size: 80%;}
 .price { display: block; }
 #wrapper { width:100%; overflow-x:scroll; }
+.active { font-weight: bold;}
