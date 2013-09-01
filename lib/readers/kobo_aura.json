@@ -9,7 +9,7 @@
     "white": 0,
     "grey": 0,
     "black": 1,
-    "color": 1,
+    "color": 0.5,
     "interop": 0.95,
     "sync": 1,
     "dropbox": 0,
