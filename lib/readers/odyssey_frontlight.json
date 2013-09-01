@@ -42,6 +42,7 @@
     "send_by_mail": 0,
     "evernote": 0,
     "touch": 1,
-    "no_border": 0
+    "no_border": 0,
+    "no_useless_drm": 1
   }
 }
