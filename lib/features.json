@@ -140,7 +140,7 @@
     "tags" : [ "screen", "software" ]
   },
   "no_border": { 
-    "label" : "Facade plane, verre sur toute la surface",
+    "label" : "Facade plane, en verre sur toute la surface",
     "tags" : [ "hardware", "screen" ]
   },
   "no_useless_drm": {
