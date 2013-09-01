@@ -10,7 +10,7 @@
     "grey": 0,
     "black": 1,
     "color": 1,
-    "interop": 1,
+    "interop": 0.95,
     "sync": 1,
     "dropbox": 0,
     "rss": 0,
