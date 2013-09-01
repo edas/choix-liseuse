@@ -4,10 +4,11 @@ a:visited { color: #777; }
 a:hover, a:focus { border-bottom: 1px solid #333333; }
 label { display: block; }
 form { margin:0; padding: 0;}
+form p { clear: left;}
 #choices { columns:20em; -moz-columns:20em; -webkit-columns:20em; }
 form .mix { opacity: 0; display: none;}
 p { margin: 0 0 1em 0;}
-form p { break-inside: avoid; -webkit-column-break-inside: avoid; -moz-column-break-inside: avoid;}
+form p, #filters { break-inside: avoid; -webkit-column-break-inside: avoid; -moz-column-break-inside: avoid;}
 #result { display: table-row; }
 #result a { display: table-cell; }
 figure { padding: 0; margin: 0; width: 15em;} 
@@ -17,6 +18,6 @@ figure { padding: 0; margin: 0; width: 15em;}
 .price { display: block; }
 #wrapper { width:100%; overflow-x:scroll; }
 .active { font-weight: bold;}
-#filters { display: inline-block; width: 180px; margin: 0 0 30px; vertical-align: top; }
-#filters li { padding-left: 0px; margin-left: 0px; cursor: pointer; list-style-type: square; display: }
+#filters { float: left ; display: block; width: 12em; padding-bottom: 2.55em; margin: 0 ; vertical-align: top; }
+#filters li { padding-left: 0px; margin-left: 0px; cursor: pointer; list-style-type: square; display: block;}
 footer { border-top: 1px solid black; margin-top: 1em; color: #999; font-size: 80%; }
