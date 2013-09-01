@@ -1,7 +1,13 @@
-body { padding: 0; position: relative;}
+body { padding: 0; position: relative; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; } 
+a { border-bottom: 1px dotted #333333; color: #333; text-decoration: none; }
+a:visited { color: #777; }
+a:hover, a:focus { border-bottom: 1px solid #333333; }
 label { display: block; }
-form { columns:20em; -moz-columns:20em; -webkit-columns:20em; margin:0; padding: 0;}
+form { margin:0; padding: 0;}
+#choices { columns:20em; -moz-columns:20em; -webkit-columns:20em; }
+form .mix { opacity: 0; display: none;}
 p { margin: 0 0 1em 0;}
+form p { break-inside: avoid; }
 #result { display: table-row; }
 #result a { display: table-cell; }
 figure { padding: 0; margin: 0; width: 15em;} 
@@ -10,3 +16,7 @@ figure { padding: 0; margin: 0; width: 15em;}
 .score { display: block; font-style: italic; font-size: 80%;}
 .price { display: block; }
 #wrapper { width:100%; overflow-x:scroll; }
+.active { font-weight: bold;}
+#filters { display: inline-block; width: 180px; margin: 0 0 30px; vertical-align: top; }
+#filters li { padding-left: 0px; margin-left: 0px; cursor: pointer; list-style-type: square; display: }
+footer { border-top: 1px solid black; margin-top: 1em; color: #999; font-size: 80%; }

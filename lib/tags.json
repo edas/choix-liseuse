@@ -1,0 +1,11 @@
+{
+	"all" : "(Montrer tous)",
+	"hardware" : "Matériel",
+	"software": "Logiciel",
+	"screen" : "Écran",
+	"apps" : "Applications",
+	"format": "Format",
+	"open": "Ouverture",
+	"sync": "Synchronisation",
+	"store": "Boutique"
+}

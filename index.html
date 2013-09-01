@@ -1,35 +1,52 @@
 <!doctype HTML>
+<!--[if lte IE 7]> <html class="no-js ie67 ie678" lang="fr"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 ie678" lang="fr"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="fr"> <![endif]-->
+<!--[if gt IE 9]> <!--><html class="no-js" lang="fr"> <!--<![endif]-->
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
   <title>Choisir sa liseuse ebook - août 2013</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
   <script src="lib/readers.js"></script>
+  <link rel="stylesheet" href="lib/knacss.css">
   <link rel="stylesheet" href="lib/style.css">
 </head>
 <body>
 
-<div id="results">
-  <h2>Les résultats, dans l'ordre des préférences données plus bas…</h2>
-  <p>Celui qui correspond le plus à votre recherche est en premier. Il se peut qu'il ne corresponde pas parfaitement si aucune correspondance parfaite n'est possible, mais c'est celui qui répond au mieux à l'importance que vous attribuez à chaque critère.</p>
-  <div id="wrapper">
+<div id="results" class="line mas pal">
+  <h2>Les liseuses qui vous correspondent le plus…</h2>
+  <p>De celle qui correspond le mieux à celle qui correspond le moins, en fonction de l'importance que vous donnez à chaque critère plus bas.</p>
+  <div id="wrapper" class="line mas pas">
     <div id="result"></div>
   </div>
 </div>
 
-<div id="criteres">
-  <h2>Réglez l'importance que vous attribuez à chaque critère…</h2>
+<div id="criteres" class="line mas pal">
+  <h2>Quelle importance attribuez-vous à…</h2>
   <p>De <i>aucune importance</i> (à gauche) à <i>importance maximale</i> (à droite).</p>
-  <form id="form">
-  </form>
+  <div id="choices">
+	<ul id="filters"></ul>
+  	<form id="form">
+  	</form>
+  </div>
 </div>
-<a href="#results">(voir les résultats)</a>
-<footer><p>Corrections et propositions d'améliorations sur github.</p></footer>
 
+<div class="line mas pas"><p><a href="#results">(remonter voir les résultats)</a></p>
 
+<footer class="line pam txtleft"><p>Corrections et propositions d'améliorations (y compris graphiques) <a href="https://github.com/edas/choix-liseuse">sur github</a>.</p></footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
 <script>
 var results = document.getElementById("result");
 var form = document.getElementById("form");
-READERS.init(form, results);
+var filters = document.getElementById("filters");
+READERS.init(form, filters, results);
 READERS.load("pocketbook_lux");
 READERS.load("pocketbook_touch");
 READERS.load("odyssey_frontlight");
@@ -43,5 +60,12 @@ READERS.load("kindle_3g");
 READERS.load("kindle_basic");
 READERS.load("sony_prst2");
 </script>
+
+<script>
+$(function(){  
+  $('#form').mixitup();
+});
+</script>
+
 </body>
 </html>
