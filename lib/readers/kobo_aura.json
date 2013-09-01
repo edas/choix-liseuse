@@ -2,7 +2,7 @@
   "id": "kobo_aura",
   "name": "Kobo Aura",
   "spec": "http:\/\/fr.kobo.com\/koboaura",
-  "image": "image": "lib/readers/img/kobo_aura.jpg",
+  "image": "lib/readers/img/kobo_aura.jpg",
   "price": "149 \u20ac",
   "buy": "",
   "features": {
