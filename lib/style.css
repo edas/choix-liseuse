@@ -22,7 +22,7 @@ figure { padding: 0; margin: 0; width: 15em;}
 #wrapper { width:100%; overflow-x:scroll; }
 #criteres { background: #EFFFCD; border-top: 10px solid #DCE9BE; border-bottom: 10px solid #DCE9BE; }
 .active { font-weight: bold;}
-#filters { float: left ; display: block; width: 12em; padding-bottom: 2.55em; margin: 0 ; vertical-align: top; }
+#filters { float: left ; display: block;  padding-bottom: 2.55em; margin: 0 ; vertical-align: top; }
 #filters li { padding-left: 0px; margin-left: 0px; cursor: pointer; list-style-type: square; display: block;}
 #filters li.active:before {content:"\2192"; margin-right: 10px; color: #99173C;}
 #filters li:hover:before {content:"\2192"; margin-right: 10px; color: #555152;}
