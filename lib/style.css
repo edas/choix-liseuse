@@ -1,3 +1,6 @@
+header { margin: 0; background: #2E2633; color: #FFF; }
+h1 { font-family: 'Open Sans', serif; text-transform: uppercase; font-size: 140%; font-weight: normal; }
+h2 { font-family: 'Open Sans', serif; color: #99173C; margin-bottom: 10px; font-size: 130%; font-weight: normal; } 
 body { padding: 0; position: relative; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; } 
 a { border-bottom: 1px dotted #333333; color: #333; text-decoration: none; }
 a:visited { color: #777; }
@@ -17,8 +20,12 @@ figure { padding: 0; margin: 0; width: 15em;}
 .score { display: block; font-style: italic; font-size: 80%;}
 .price { display: block; }
 #wrapper { width:100%; overflow-x:scroll; }
+#criteres { background: #EFFFCD; border-top: 10px solid #DCE9BE; border-bottom: 10px solid #DCE9BE; }
 .active { font-weight: bold;}
 #filters { float: left ; display: block; width: 12em; padding-bottom: 2.55em; margin: 0 ; vertical-align: top; }
 #filters li { padding-left: 0px; margin-left: 0px; cursor: pointer; list-style-type: square; display: block;}
-footer { border-top: 1px solid black; margin-top: 1em; color: #999; font-size: 80%; }
+#filters li.active:before {content:"\2192"; margin-right: 10px; color: #99173C;}
+#filters li:hover:before {content:"\2192"; margin-right: 10px; color: #555152;}
+footer { font-size: 80%; margin: 0; background: #555152; color: #FFF; }
+footer a, footer a:visited { color: #EFFFCD; }
 i { font-style: italic;}
