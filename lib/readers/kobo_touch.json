@@ -2,7 +2,7 @@
   "id": "kobo_touch",
   "name": "Kobo Touch",
   "spec": "http:\/\/fr.kobo.com\/kobotouch",
-  "image": "http:\/\/www.the-ebook-reader.com\/images\/kobo-touch.jpg",
+  "image": "lib/readers/img/kobo_touch.jpg",
   "price": "99 \u20ac",
   "buy": "",
   "features": {

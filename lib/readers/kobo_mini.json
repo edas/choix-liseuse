@@ -2,7 +2,7 @@
   "id": "kobo_mini",
   "name": "Kobo Mini",
   "spec": "http:\/\/fr.kobo.com\/kobomini",
-  "image": "http:\/\/www7.pcmag.com\/media\/images\/364879-kobo-mini.jpg?thumb=y",
+  "image": "lib/readers/img/kobo_mini.jpg",
   "price": "59 \u20ac",
   "buy": "",
   "features": {

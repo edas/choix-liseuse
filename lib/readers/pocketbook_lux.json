@@ -2,7 +2,7 @@
   "id": "pocketbook_lux",
   "name": "Pocketbook Touch Lux",
   "spec": "http:\/\/www.pocketbook-int.com\/fr\/products\/pocketbook-touch-lux",
-  "image": "http:\/\/i.priice.fr\/300\/pocketbook-touch-lux.jpg",
+  "image": "lib/readers/img/pocketbook_lux.jpg",
   "price": "129 \u20ac",
   "buy": "",
   "features": {

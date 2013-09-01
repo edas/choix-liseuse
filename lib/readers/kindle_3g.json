@@ -2,7 +2,7 @@
   "id": "kindle_3g",
   "name": "Kindle Paperwhite 3G",
   "spec": "http:\/\/www.amazon.fr\/gp\/product\/B007OZNWRC\/",
-  "image": "http:\/\/cdn3.sbnation.com\/products\/large\/6095\/kindle-paperwhite-press-Kindle_Paperwhite__Front_White-rm-verge-1020_gallery_post.jpeg?1346960401",
+  "image": "lib/readers/img/kindle_3g.jpg",
   "price": "189 \u20ac",
   "buy": "",
   "features": {

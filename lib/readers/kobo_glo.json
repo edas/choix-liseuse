@@ -2,7 +2,7 @@
   "id": "kobo_glo",
   "name": "Kobo Glo",
   "spec": "http:\/\/fr.kobo.com\/koboglo",
-  "image": "http:\/\/images.test-comparatif.quechoisir.org\/test\/livre-electronique\/zoom\/kobo-fnac-glo_001.jpg",
+  "image": "lib/readers/img/kobo_glo.jpg",
   "price": "129 \u20ac",
   "buy": "",
   "features": {

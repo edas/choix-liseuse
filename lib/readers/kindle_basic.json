@@ -2,7 +2,7 @@
   "id": "kindle_basic",
   "name": "Kindle Basic",
   "spec": "http:\/\/www.amazon.fr\/gp\/product\/B007HCCOD0\/",
-  "image": "http:\/\/mindprod.com\/image\/electroniccover\/B007HCCNJU.png",
+  "image": "lib/readers/img/kindle_basic.jpg",
   "price": "79 \u20ac",
   "buy": "",
   "features": {

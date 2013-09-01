@@ -2,7 +2,7 @@
   "id": "kobo_aura_hd",
   "name": "Kobo Aura HD",
   "spec": "http:\/\/fr.kobo.com\/koboaurahd",
-  "image": "http:\/\/i.priice.fr\/300\/kobo-aura-hd.jpg",
+  "image": "lib/readers/img/kobo_aura_hd.jpg",
   "price": "169 \u20ac",
   "buy": "",
   "features": {

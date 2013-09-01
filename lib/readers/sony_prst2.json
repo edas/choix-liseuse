@@ -2,7 +2,7 @@
   "id": "sony_prst2",
   "name": "Sony PRS-T2",
   "spec": "http:\/\/www.sony.fr\/product\/rd-reader-ebook\/prs-t2",
-  "image": "http:\/\/img1.findthebest.com\/sites\/default\/files\/666\/media\/images\/Sony_PRS-T2_360457.jpg",
+  "image": "lib/readers/img/sony_prst2.jpg",
   "price": "99* \u20ac",
   "buy": "",
   "features": {

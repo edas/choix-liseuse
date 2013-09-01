@@ -2,7 +2,7 @@
   "id": "kobo_aura",
   "name": "Kobo Aura",
   "spec": "http:\/\/fr.kobo.com\/koboaura",
-  "image": "http:\/\/cdn.cnet.com.au\/story_media\/339345284\/kobo_1.jpg",
+  "image": "image": "lib/readers/img/kobo_aura.jpg",
   "price": "149 \u20ac",
   "buy": "",
   "features": {

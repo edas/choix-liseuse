@@ -2,7 +2,7 @@
   "id": "pocketbook_touch",
   "name": "Pocketbook Touch",
   "spec": "http:\/\/www.pocketbook-int.com\/fr\/products\/pocketbook-touch",
-  "image": "http:\/\/img.clubic.com\/05014024-photo-pocketbook-touch-622.jpg",
+  "image": "lib/readers/img/pocketbook_touch.jpg",
   "price": "99 \u20ac",
   "buy": "",
   "features": {
