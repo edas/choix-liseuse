@@ -21,3 +21,4 @@ figure { padding: 0; margin: 0; width: 15em;}
 #filters { float: left ; display: block; width: 12em; padding-bottom: 2.55em; margin: 0 ; vertical-align: top; }
 #filters li { padding-left: 0px; margin-left: 0px; cursor: pointer; list-style-type: square; display: block;}
 footer { border-top: 1px solid black; margin-top: 1em; color: #999; font-size: 80%; }
+i { font-style: italic;}
