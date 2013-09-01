@@ -145,6 +145,6 @@
   },
   "no_useless_drm": {
     "label" : "Librairie sans DRM superflus",
-    "tags" : [ "ouverture", "store" ]
+    "tags" : [ "open", "format", "store" ]
   }
 }
