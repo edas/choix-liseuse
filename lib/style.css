@@ -13,7 +13,8 @@ form .mix { opacity: 0; display: none;}
 p { margin: 0 0 1em 0;}
 form p, #filters {  -webkit-column-break-inside: avoid; -moz-column-break-inside: avoid; break-inside: avoid; overflow: hidden; page-break-inside: avoid;}
 #result { display: table-row; }
-#result a { display: table-cell; }
+#result a, #result a:visited { display: table-cell; color: #777; }
+#result a.max { color: #99173C; }
 figure { padding: 0; margin: 0; width: 15em;} 
 #result img { max-height: 10em; display: block; margin: auto; }
 #result figcaption { font-weight: bold; text-align: center; font-size: 110%;}
@@ -29,4 +30,3 @@ figure { padding: 0; margin: 0; width: 15em;}
 footer { font-size: 80%; margin: 0; background: #555152; color: #FFF; }
 footer a, footer a:visited { color: #EFFFCD; }
 i { font-style: italic;}
-.deselected { opacity: 0.25; }
