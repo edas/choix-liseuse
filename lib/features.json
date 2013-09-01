@@ -77,7 +77,7 @@
   },
   "frontlight": { 
     "label" : "Sur-\u00e9clairage de l'\u00e9cran (d\u00e9brayable)",
-    "tags" : [ "hardware", "screen" ]
+    "tags" : [ "screen" ]
   },
   "highres": { 
     "label" : "\u00c9cran haute r\u00e9solution",
@@ -121,11 +121,11 @@
   },
   "large_screen": { 
     "label" : "\u00c9cran de grande taille",
-    "tags" : [ "hardware", "screen" ]
+    "tags" : [ "screen" ]
   },
   "multi_touch": { 
     "label" : "\u00c9cran tactile multi-touch (plusieurs doigts)",
-    "tags" : [ "hardware", "screen" ]
+    "tags" : [ "creen" ]
   },
   "send_by_mail": { 
     "label" : "Envoi des livres \u00e0 la liseuse par email",
