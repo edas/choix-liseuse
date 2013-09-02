@@ -43,6 +43,10 @@
 
 <div class="line mas pas"><p><a href="#results" onclick="scrollTo(0,0);return false">(remonter voir les résultats)</a></p></div>
 
+<div class="line mas pas" id="desc"><h2>Détails</h2>
+<dl></dl>
+</div>
+
 <footer class="line pam txtleft"><p>Corrections et propositions d'améliorations techniques (y compris graphiques) <a href="https://github.com/edas/choix-liseuse">sur github</a>, commentaires et discussions sur le <a href="http://forum-numerique.actualitte.com/liseuses/(relai)choisir-sa-liseuse-(edas)/">forum e-Lire</a>.</p>
 <p>Transparence : Je travaille dans le domaine du livre numérique. Je ne vous demande donc pas de faire confiance en mon objectivité. Au contraire, bien que l'exercice ne laisse pas vraiment place à l'avis personnel, je vous incite à vérifier tous le tableau de correspondance entre chaque liseuse et chaque critère, de le compléter et le corriger si besoin. Les données ainsi que le moteur sont publics, lisibles et modifiables sur le lien github du paragraphe précédent.</p></footer>
 
@@ -52,7 +56,8 @@
 var results = document.getElementById("result");
 var form = document.getElementById("form");
 var filters = document.getElementById("filters");
-READERS.init(form, filters, results);
+var desc = document.getElementById("desc").getElementsByTagName("dl")[0];
+READERS.init(form, filters, results, desc);
 READERS.load("pocketbook_lux");
 READERS.load("pocketbook_touch");
 READERS.load("odyssey_frontlight");

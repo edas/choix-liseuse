@@ -43,6 +43,7 @@
     "evernote": 0,
     "touch": 0,
     "no_border": 0,
-    "no_useless_drm": 0
+    "no_useless_drm": 0,
+    "has_pen": 0
   }
 }

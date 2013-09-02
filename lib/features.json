@@ -9,18 +9,22 @@
   },
   "color": { 
     "label" : "Autre couleur (rouge, bleue, etc.)",
+    "desc" : "Les liseuses ayant un dos coloré donnent un demi-point.",
     "tags" : [ "hardware" ]  
   },
   "interop": { 
     "label" : "Formats et syst\u00e8mes interop\u00e9rables",
+    "desc" : "Utilise le format EPUB et (si besoin) les DRM Adobe. Les liseuses Kobo ont quelques centièmes de point en moins puisque Kobo modifie les fichiers EPUB et qu'il est arrivé que cela pose problème pour les liseuses tierces.",
     "tags" : [ "format", "open" ]
   },
   "sync": { 
     "label" : "Synchronisation des contenus avec le libraire",
+    "desc" : "Les achats faits via le web ou les applications du libraire vendant la liseuse sont automatiquement synchronisées sur la liseuse par WIFI.",
     "tags" : [ "sync" ]
   },
   "dropbox": { 
     "label" : "Synchronisation des contenus avec Dropbox",
+    "desc" : "Les livres posés dans votre compte Dropbox sont envoyés vers la liseuse et vice-versa.",
     "tags" : [ "sync", "apps" ]
   },
   "rss": { 
@@ -37,6 +41,7 @@
   },
   "user_profiles": { 
     "label" : "Profils utilisateurs multiples",
+    "desc" : "Plusieurs utilisateurs peuvent avoir leurs propres annotations et positions de lecture sur la même liseuse.",
     "tags" : [ "software" ]
   },
   "cover": { 
@@ -96,8 +101,8 @@
     "tags" : [ "format" ]
   },
   "phone_support": { 
-    "label" : "Assitance t\u00e9l\u00e9phonique",
-    "tags" : [ ]
+    "label" : "Assistance t\u00e9l\u00e9phonique",
+    "tags" : [ "software" ]
   },
   "apps": { 
     "label" : "Applications internes (type calendrier)",
@@ -141,10 +146,17 @@
   },
   "no_border": { 
     "label" : "Facade plane, en verre sur toute la surface",
+    "desc" : "Facade similaire à une tablette, lisse et sans rebords",
     "tags" : [ "hardware", "screen" ]
   },
   "no_useless_drm": {
     "label" : "Librairie sans DRM superflus",
+    "desc" : "Dans le store intégré, les fichiers n'ont pas de DRM si l'éditeur ne l'impose pas.",
     "tags" : [ "open", "format", "store" ]
+  },
+  "has_pen": {
+    "label" : "Stylet pour les annotations",
+    "tags" : [ "hardware" ]
   }
+
 }
