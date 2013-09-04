@@ -44,6 +44,8 @@
     "touch": 1,
     "no_border": 0,
     "no_useless_drm": 0,
-    "has_pen": 0
+    "has_pen": 0,
+    "flip_cover": 1,
+    "quick_charge": 1
   }
 }
