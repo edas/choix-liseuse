@@ -118,6 +118,7 @@
   },
   "lightweight": { 
     "label" : "L\u00e9g\u00e8re \/ Faible poids",
+    "desc" : "Correspondance totale en dessous de 150 gr., partielle en dessous de 200 gr.",
     "tags" : [ "hardware" ]
   },
   "tiny": { 
