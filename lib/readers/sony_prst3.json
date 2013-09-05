@@ -1,9 +1,9 @@
 {
   "id": "sony_prst3",
   "name": "Sony PRS-T3",
-  "spec": "http:\/\/www.sony.fr\/product\/rd-reader-ebook\/prs-t2",
+  "spec": "http://www.sony.fr/product/rd-reader-ebook/prst3bc.ce7",
   "image": "lib/readers/img/sony_prst3.jpg",
-  "price": "129* \u20ac",
+  "price": "139 \u20ac",
   "buy": "",
   "features": {
     "white": 1,

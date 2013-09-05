@@ -157,6 +157,15 @@
   "has_pen": {
     "label" : "Stylet pour les annotations",
     "tags" : [ "hardware" ]
+  },
+  "flip_cover": {
+    "label" : "Couverture rabattable intégrée",
+    "desc" : "Couverture solidaire de la coque, sans épaisseur supplémentaire, qui peut diriger la mise en veille ou le réveil de l'appareil.",
+    "tags" : [ "hardware" ]
+  },
+  "quick_charge": {
+    "label" : "Charge rapide",
+    "desc" : "Recharge rapide de l'appareil (quelques minutes pour un livre).",
+    "tags" : [ "hardware" ]
   }
-
 }
