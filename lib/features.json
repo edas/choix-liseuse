@@ -1,10 +1,10 @@
 {
   "white": { 
-    "label" : "Couleur blanche, ivoire\u2026", 
+    "label" : "Couleur blanc, ivoire\u2026, argent", 
     "tags" : [ "hardware" ]
   },
   "black": { 
-    "label" : "Couleur noire, sombre",
+    "label" : "Couleur noir, gris, sombre",
     "tags" : [ "hardware" ]
   },
   "color": { 
