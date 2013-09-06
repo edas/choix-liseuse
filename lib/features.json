@@ -1,6 +1,6 @@
 {
   "white": { 
-    "label" : "Couleur blanc, ivoire\u2026, argent", 
+    "label" : "Couleur blanc, ivoire, argent", 
     "tags" : [ "hardware" ]
   },
   "black": { 
@@ -160,7 +160,7 @@
     "tags" : [ "hardware" ]
   },
   "flip_cover": {
-    "label" : "Couverture rabattable intégrée",
+    "label" : "Couverture rabatable intégrée",
     "desc" : "Couverture solidaire de la coque, sans épaisseur supplémentaire, qui peut diriger la mise en veille ou le réveil de l'appareil.",
     "tags" : [ "hardware" ]
   },
