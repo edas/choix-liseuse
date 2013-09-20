@@ -32,3 +32,4 @@ footer a, footer a:visited { color: #EFFFCD; }
 i { font-style: italic;}
 dt { font-weight: bold; }
 dd { font-style: italic; }
+#changelog { font-size: 80%;}
