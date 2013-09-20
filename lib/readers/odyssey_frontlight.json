@@ -1,9 +1,9 @@
 {
   "id": "odyssey_frontlight",
-  "name": "Cybook Odyssey HD frontlight",
-  "spec": "http:\/\/www.bookeen.com\/fr\/cybook-odyssey-hd-frontlight",
+  "name": "Cybook Odyssey frontlight",
+  "spec": "http://bookeen.com/blogfr/nouveautes-cybook-2013/",
   "image": "lib/readers/img/odyssey_frontlight.jpg",
-  "price": "129 \u20ac",
+  "price": "100 \u20ac",
   "buy": "",
   "features": {
     "white": 0,
@@ -27,10 +27,10 @@
     "tts": 0,
     "mp3": 0,
     "frontlight": 1,
-    "highres": 1,
-    "cheap": 0.5,
-    "storage": 0.5,
-    "pdf_reflow": 0,
+    "highres": 0,
+    "cheap": 0,
+    "storage": 1,
+    "pdf_reflow": 1,
     "phone_support": 0,
     "apps": 0,
     "third_party": 0,
@@ -45,7 +45,7 @@
     "no_border": 0,
     "no_useless_drm": 1,
     "has_pen": 0,
-    "flip_cover": 1,
-    "quick_charge": 1
+    "flip_cover": 0,
+    "quick_charge": 0
   }
 }
