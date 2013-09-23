@@ -168,5 +168,9 @@
     "label" : "Charge rapide",
     "desc" : "Recharge rapide de l'appareil (quelques minutes pour un livre).",
     "tags" : [ "hardware" ]
+  },
+  "color_screen": {
+    "label" : "Écran couleur",
+    "tags" : [ "screen", "hardware"]
   }
 }

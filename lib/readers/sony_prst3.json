@@ -46,6 +46,7 @@
     "no_useless_drm": 1,
     "has_pen": 1,
     "flip_cover": 1,
-    "quick_charge": 1
+    "quick_charge": 1,
+    "color_screen": 0
   }
 }

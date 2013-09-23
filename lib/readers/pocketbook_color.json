@@ -1,8 +1,8 @@
 {
-  "id": "pocketbook_lux",
-  "name": "Pocketbook Touch Lux",
+  "id": "pocketbook_color",
+  "name": "Pocketbook Color Lux",
   "spec": "http:\/\/www.pocketbook-int.com\/fr\/products\/pocketbook-touch-lux",
-  "image": "lib/readers/img/pocketbook_lux.jpg",
+  "image": "lib/readers/img/pocketbook_color.jpg",
   "price": "129 \u20ac",
   "buy": "",
   "features": {
@@ -19,7 +19,7 @@
     "user_profiles": 1,
     "cover": 1,
     "foreign": 0,
-    "local_seller": 1,
+    "local_seller": 0,
     "local_constructor": 1,
     "annotate": 0.6,
     "native_app": 0,
@@ -27,17 +27,17 @@
     "tts": 1,
     "mp3": 1,
     "frontlight": 1,
-    "highres": 1,
-    "cheap": 0.5,
-    "storage": 1,
+    "highres": 0,
+    "cheap": 0,
+    "storage": 0.5,
     "pdf_reflow": 0,
     "phone_support": 1,
     "apps": 1,
     "third_party": 1,
     "3g": 0,
-    "lightweight": 0.7,
-    "tiny": 0.5,
-    "large_screen": 0.5,
+    "lightweight": 0,
+    "tiny": 0,
+    "large_screen": 1,
     "multi_touch": 1,
     "send_by_mail": 0,
     "evernote": 0,
@@ -47,7 +47,7 @@
     "has_pen": 0,
     "flip_cover": 0,
     "quick_charge": 0,
-    "color_screen": 0
+    "color_screen": 1
   }
 }
 
