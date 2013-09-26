@@ -7,7 +7,7 @@
   "buy": "",
   "features": {
     "white": 1,
-    "grey": 0,
+    "grey": 1,
     "black": 1,
     "color": 1,
     "interop": 1,
@@ -30,7 +30,7 @@
     "highres": 0,
     "cheap": 1,
     "storage": 0.5,
-    "pdf_reflow": 0,
+    "pdf_reflow": 1,
     "phone_support": 1,
     "apps": 1,
     "third_party": 1,
