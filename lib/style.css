@@ -1,4 +1,5 @@
 header { margin: 0; background: #2E2633; color: #FFF; }
+header a, header a:visited { color: #EFFFCD; }
 h1 { font-family: 'Open Sans', serif; text-transform: uppercase; font-size: 140%; font-weight: normal; }
 h2 { font-family: 'Open Sans', serif; color: #99173C; margin-bottom: 10px; font-size: 130%; font-weight: normal; } 
 body { padding: 0; position: relative; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; } 
