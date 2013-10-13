@@ -1,9 +1,9 @@
 {
-  "id": "sony_prst3",
-  "name": "Sony PRS-T3",
+  "id": "sony_prst3bc",
+  "name": "Sony PRS-T3 BC",
   "spec": "http://www.sony.fr/product/rd-reader-ebook/prst3bc.ce7",
-  "image": "lib/readers/img/sony_prst3.jpg",
-  "price": "139 \u20ac",
+  "image": "lib/readers/img/sony_prst3bc.jpg",
+  "price": "???",
   "buy": "",
   "features": {
     "white": 1,
@@ -28,7 +28,7 @@
     "mp3": 0,
     "frontlight": 0,
     "highres": 1,
-    "cheap": 0.25,
+    "cheap": 0.7,
     "storage": 0.5,
     "pdf_reflow": 1,
     "phone_support": 0,
@@ -45,7 +45,7 @@
     "no_border": 0,
     "no_useless_drm": 1,
     "has_pen": 1,
-    "flip_cover": 1,
+    "flip_cover": 0,
     "quick_charge": 1,
     "color_screen": 0
   }
