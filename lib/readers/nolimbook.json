@@ -6,9 +6,9 @@
   "price": "69 \u20ac",
   "buy": "",
   "features": {
-    "white": 0,
+    "white": 1,
     "grey": 0,
-    "black": 1,
+    "black": 0,
     "color": 0,
     "interop": 1,
     "sync": 0,
