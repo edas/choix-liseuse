@@ -1,8 +1,8 @@
 {
-  "id": "pocketbook_touch",
-  "name": "Pocketbook Touch",
-  "spec": "http:\/\/www.pocketbook-int.com\/fr\/products\/pocketbook-touch",
-  "image": "lib/readers/img/pocketbook_touch.jpg",
+  "id": "pocketbook_basic_touch",
+  "name": "Pocketbook Basic Touch",
+  "spec": "http:\/\/www.pocketbook-int.com\/fr\/products\/pocketbook-basic-touch",
+  "image": "lib/readers/img/pocketbook_basic_touch.jpg",
   "price": "79 \u20ac",
   "buy": "",
   "features": {
