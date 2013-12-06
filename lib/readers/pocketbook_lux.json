@@ -3,7 +3,7 @@
   "name": "Pocketbook Touch Lux",
   "spec": "http:\/\/www.pocketbook-int.com\/fr\/products\/pocketbook-touch-lux",
   "image": "lib/readers/img/pocketbook_lux.jpg",
-  "price": "109 \u20ac",
+  "price": "119 \u20ac",
   "buy": "",
   "features": {
     "white": 1,
@@ -28,7 +28,7 @@
     "mp3": 1,
     "frontlight": 1,
     "highres": 1,
-    "cheap": 0.7,
+    "cheap": 0.65,
     "storage": 1,
     "pdf_reflow": 1,
     "phone_support": 1,
