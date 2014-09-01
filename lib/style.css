@@ -7,7 +7,7 @@ a { border-bottom: 1px dotted #333333; color: #333; text-decoration: none; }
 a:visited { color: #777; }
 a:hover, a:focus { border-bottom: 1px solid #333333; }
 
-form { margin:0; padding: 0; columns:40em; -moz-columns:40em; -webkit-columns:40em; }}
+form { margin:0; padding: 0; columns:44em; -moz-columns:44em; -webkit-columns:44em; }}
 .score { display: none;}
 form .mix { opacity: 0; display: none;}
 p { margin: 0 0 1em 0;}
