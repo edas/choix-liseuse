@@ -14,11 +14,12 @@
   <![endif]-->
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css"> 
   <link rel="stylesheet" href="lib/knacss.css">
-  <link rel="stylesheet" href="lib/style.css">
-  <script src="lib/readers.js"></script>
+  <link rel="stylesheet" href="lib/style.css?b">
+  <script src="lib/readers.js?b"></script>
 </head>
 <body>
-<header class="line pal"><h1>Choisir sa liseuse ebook</h1><p>Vous ne savez pas par où commencer ? je vous ai mis par défaut <a href="http://liseuses.survol.fr/">les critères que je trouve pertinent</a>. Vous pouvez aussi jetez un oeil à <a href="https://n.survol.fr/n/choisir-sa-liseuse-pour-livre-numerique-ete-2014">ma dernière recommandation</a> (qui logiquement donne des résultats assez similaires). <br><i>Pour partager vos résultats à d'autres, copiez simplement le lien complet de la page actuelle à partir de la barre d'adresse de votre navigateur.</i></p></header> 
+<header class="line pal"><h1>Choisir sa liseuse ebook</h1><p>Changez l'importance des différents critères plus bas, la liste des liseuses sera mise à jour en temps réel (la plus pertinente à gauche).<br>
+Vous ne savez pas par où commencer ? Je vous ai mis par défaut <a href="http://liseuses.survol.fr/">les critères que je trouve pertinent</a>. Vous pouvez aussi jetez un oeil à <a href="https://n.survol.fr/n/choisir-sa-liseuse-pour-livre-numerique-ete-2014">ma dernière recommandation détaillée</a> (qui logiquement donne des résultats assez similaires). <br><i>Pour partager vos résultats à d'autres, copiez simplement le lien complet de la page actuelle à partir de la barre d'adresse de votre navigateur.</i></p></header> 
 
 <div id="results" class="line mas pal">
   <div id="wrapper" class="">
@@ -35,15 +36,25 @@
   </div>
 </div>
 
-<div class="line mas pas"><p><a href="#results" onclick="scrollTo(0,0);return false">(remonter voir les résultats)</a></p></div>
-
-<div class="" id="desc">
+<div class="line mas pas">
+  <p><a href="#results" onclick="scrollTo(0,0);return false">(remonter voir les résultats)</a></p>
+  <div id="desc">
+  <p>Les scores sont calculés à partir d'une <a href="https://docs.google.com/spreadsheets/d/1gwgjUi3e3fhE113J1TMcJKrOHQeOCficgFEY1FAEv50/edit?usp=sharing">grille de données</a>, en faisant pour chaque liseuse la somme de chaque critère avec un multiplicateur allant de 0 (inutile) à 100 (important).</p>
+  <p>L'usage mobile est calculé en fonction du poids, de la largeur du boitie, et à la marge en fonction de la présence de fonctionnalités intéressantes en mobilité (applications de lecture hors ligne type RSS ou Pocket, appareil photo, connectivité 3G).</p>
+  <p>L'usage sédentaire est essentiellement calculé en fonction de la largeur de l'écran lui-même, en favorisant tout de même les poids les plus légers.</p>
+  <p>La qualité d'écran prend en compte la densité de pixels de l'écran (finesse d'écriture des caractères), la génération de l'écran (joue sur le contraste et la rémanence), et sur la disponibilité d'un sur-éclairage débrayable.</p>
+  <p>L'interabilité s'assure que la liseuse gère nativement les formats standards (EPUB) et courants (DRM Adobe), ainsi que la propension de la librairie embarquée à ne pas ajouter de DRM quand ils sont absents chez les concurrents.</p>
+  <p>Outre les boutons pour changer de page, la note pour la présence de boutons physiques prend en compte la présence d'un bouton pour (dés)activer le suréclairage, ainsi que d'un bouton pour en faire varier la puissance.</p>
+</div>
+<div class="" id="log">
   <ul id="changelog">
     <li>2 sept. 2014 : Remise à zéro avec de nouvelles données. Les Nolimbook et Nolimbook+ de Carrefour sont respectivement les équivalents des Odyssey 2013 et Fronlight (non HD) de Bookeen.</li>
   </ul>
 </div>
 
-<footer class="line pam txtleft"><p>Codes, corrections et propositions d'améliorations techniques (y compris graphiques) <a href="https://github.com/edas/choix-liseuse">sur github</a>. Transparence : Je travaille dans le domaine du livre numérique. Si les données source sont purement objective sans interprétation personnelle, les critères retenus et leur pondération relèvent eux d'un choix arbitraire personnel. Le comparatif est là pour aider à votre choix, par pour le faire à votre place.</p></footer>
+</div>
+
+<footer class="line pam txtleft"><p>Codes, corrections et propositions d'améliorations techniques (y compris graphiques) <a href="https://github.com/edas/choix-liseuse" target="_blank">sur github</a>. Transparence : Je travaille dans le domaine du livre numérique. Si les données source sont purement objective sans interprétation personnelle, les critères retenus et leur pondération relèvent eux d'un choix arbitraire personnel. Le comparatif est là pour aider à votre choix, par pour le faire à votre place.</p></footer>
 
 <script>
 READERS('result','form');
